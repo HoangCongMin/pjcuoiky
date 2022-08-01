@@ -1,0 +1,44 @@
+@media (max-width: 390px) {
+    #menucha{
+        display: block;
+    }
+    #narba{
+        display: none;
+    }
+    #logo{
+        display: none;
+    }
+    .mobilemenu{
+        display: block;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    #menucha{
+        display: block;
+    }
+    #napba4{
+        display: none;
+    }
+
+    .mobilemenu{
+        display: block;
+        text-align: right;
+        width: 33.333%;
+    }
+
+    .sumenh1{
+        height: 25%;
+    }
+
+    #noibat1{
+        justify-content: space-around;
+    }
+
+    .animatio{
+        right: 300px;
+    }
+
+
+}

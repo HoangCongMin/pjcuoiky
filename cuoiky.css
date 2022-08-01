@@ -1,0 +1,1020 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#narba{
+    display: flex;
+    width: 100%;
+    padding: 0.2rem;
+    height: 4rem;
+    position: fixed;
+    z-index: 3;
+    background: white;
+
+    /*margin-bottom:64px;*/
+}
+
+#menucha{
+    display: flex;
+    width: 33.333%;
+    align-items: center;
+    overflow: hidden;
+}
+ #menucha li{
+     margin: 0.1rem;
+     /*position: relative;*/
+ }
+
+ #snapbacha{
+     position: relative;
+ }
+ .meuchild1{
+     position: absolute;
+     top: 100%;
+     width: 100%;
+     left: 0;
+     background-color: floralwhite;
+     display: flex;
+     flex-wrap: wrap;
+     opacity: 0;
+     visibility: hidden;
+     transition: 0.25s linear;
+ }
+
+ #menucha li a{
+     color: black;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 0.9rem;
+     display: block;
+     padding: 1rem;
+ }
+
+ .menuchilditem{
+     width: 20%;
+     background-color: floralwhite;
+     height: auto;
+ }
+
+ .menuchilditem h5{
+     font-size: 1.4rem;
+     padding: 10px;
+     border-bottom: dotted 1px gainsboro;
+ }
+
+ .menuchildlist li{
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+
+ .menuitem:hover .meuchild1{
+     opacity: 1;
+     visibility: visible;
+ }
+
+ .menuitem1:hover .meuchild1{
+     opacity: 1;
+     visibility: visible;
+ }
+
+.menuitem2:hover .meuchild1{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+#logo img{
+   width: 187px;
+    height: 38px;
+
+
+}
+#logo{
+    padding: 10px;
+    /*margin-left: 10rem;*/
+    display: flex;
+    justify-content: center;
+
+}
+
+.narba{
+    font-size: 1.3rem;
+    width: 33.333%;
+}
+
+#gihang {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+}
+
+#gihang i{
+    margin: 0.5rem;
+}
+
+.mobilemenu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+}
+
+.mobilemenu i{
+    margin: 0.5rem;
+}
+
+
+
+
+
+
+
+#mainn{
+    padding:30px;
+    padding-top: 25px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainnb img{
+    height: 619px;
+    width: 670px;
+    padding: 5px;
+    -webkit-filter: brightness(50%);
+}
+
+.mainnb{
+    position: relative;
+}
+
+.nb{
+    /*position: absolute;*/
+    color: white;
+    z-index: 1;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.mba{
+    position: absolute;
+    border: solid 1px white;
+    z-index: 2;
+    width: 640px;
+    height: 595px;
+    top: 2%;
+    left: 2%;
+
+}
+
+#noibat {
+    text-align: center;
+}
+
+#bg1{
+    background-image: url("dong-ho-mido-600x600-1637743936700.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bg2{
+    background-image: url("Dong-ho-nam-SRWATCH-SG10051.1202PL-trang-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bg3{
+    background-image: url("Dy12861.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg4{
+    background-image: url("EcG0ty1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg5{
+    background-image: url("frederique-constant-banner-1624549305451.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg6{
+    background-image: url("FREDERIQUE-CONSTANT-RUNABOUT-FC-303RMC6B4-2-1640612340341.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg7{
+    background-image: url("0d891d05ea35c3768cff6de8605f088a-1637742984970.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg8{
+    background-image: url("longines_watch-1635821228117.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg9{
+    background-image: url("MGCw34Z.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg10{
+    background-image: url("P3Rz8vL.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg11{
+    background-image: url("Seiko-Prospex-LX-SNR035J-1640510028156.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg12{
+    background-image: url("tissot-4.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.iem{
+    width: 449px;
+    height: 449px;
+    border-radius: 5px;
+    margin: 15px;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.iem:hover{
+    opacity: 0.5;
+
+}
+
+#noibat1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.tdh{
+    position: absolute;
+    color: white;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#spnb{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+#bnsp2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#img11:hover{
+    background-image: url("SAG00001S0-B-3-1628151797990.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img11{
+    background-image: url("SAG00001S0-B-1-1628151790726.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img12:hover{
+    background-image: url("A168WG-9W-3-1641956927954.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img12{
+    background-image: url("A168WG-9W-2-1641956926392.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img13:hover{
+    background-image: url("Casio-MTP-VT01L-2B-3-1635995158376.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img13{
+    background-image: url("Casio-MTP-VT01L-2B-1-1635995155249.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img14:hover{
+    background-image: url("B640WGG-9-1-1639385462121.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img14{
+    background-image: url("B640WGG-9DF-2-1640761713020.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img15:hover{
+    background-image: url("dong-ho-orient-caballero-fag00003b0-cl2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img15{
+    background-image: url("dong-ho-orient-caballero-fag00003b0-cl1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img16:hover{
+    background-image: url("LA680WA-7-3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img16{
+    background-image: url("LA680WA-7-6.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img17{
+    background-image: url("Orient-FAG00003W0-1-1633056442026.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 0.3s ease;
+
+}
+
+#img17:hover{
+    transform: scale(1.03);
+}
+
+.bnim{
+    overflow: hidden;
+    padding: 10px;
+}
+
+#img18{
+    background-image: url("dong-ho-orient-caballero-fag00004d0-cl1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 0.3s ease;
+
+}
+
+#img18:hover{
+    transform: scale(1.03);
+}
+
+.itnb1{
+    border-bottom: dotted 1px gainsboro ;
+    margin-bottom: 20px;
+}
+
+
+.animatio{
+    position: relative ;
+    right: 400px;
+    bottom: 200px;
+}
+
+.animatio h1{
+    font-size: 80px;
+}
+
+#sumenh{
+    background-image: url("kXlaoig.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1406px;
+    background-attachment: fixed;
+
+}
+
+.sumenh1{
+    position: relative;
+    background-color: white;
+    width: 30%;
+    left: 50px;
+    top: 50px;
+    height: 23.5%;
+
+}
+
+.sumenh2{
+    padding: 40px;
+    border: solid 1px black;
+    background-color: white;
+    margin: 10px;
+    position: absolute;
+}
+
+.sumenh2 h5{
+    padding-bottom: 10px;
+}
+
+.sumenh2 p{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+#anhcs1{
+    background-image: url("FD9KGmE.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 445px;
+
+}
+
+#anhcs2{
+    background-image: url("XgXVzFv.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 445px;
+
+}
+
+#anhcs3{
+    background-image: url("ulGPJVW.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 445px;
+
+}
+
+.anhcs{
+  border-radius: 7px;
+}
+
+#chinhsach{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#testimonial{
+    background-color: #f2f2f2;
+}
+
+.testimo1{
+    height: 100%;
+    min-height: 221px;
+    position: relative;
+    background-color: white;
+    width: 421px;
+    padding: 30px;
+    text-align: center;
+}
+
+.testimo1 span{
+    color: darkred;
+}
+
+.testimo1 .rvsanpham{
+    color: #616b71;
+    font-size: 15px;
+    margin: 50px 0 20px;
+    padding: 0 20px;
+    height: 68px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimo2 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 10rem;
+    bottom: 11rem;
+}
+
+#testimonial1{
+    display: flex;
+    padding-top:  6rem;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+#canha{
+    text-align: center;
+    padding: 30px;
+}
+
+#ft{
+    display: flex;
+    justify-content: start;
+    clear: both;
+    text-decoration: none;
+    font-weight: inherit;
+    font-size: 15px;
+
+
+}
+
+li{
+    list-style: none;
+}
+
+.ft1 h5{
+    font-size: 1.25rem;
+}
+
+.ft1 ul{
+    padding: 0;
+}
+
+.ft1 ul li{
+    margin-top:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.ft1{
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.fa-brands{
+    margin: 10px;
+}
+
+.ftkt{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ftkt i{
+  padding: 20px;
+}
+
+.tbol {
+    background-color: #51a700;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 2px;
+    width: 10px;
+}
+
+.price{
+    margin: 10px;
+}
+
+.money:hover{
+    color: red;
+}
+.ttcs{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.ttqc{
+    margin-bottom: 15px;
+}
+
+
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+.btt{
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+
+}
+
+
+
+.bta {
+    border: none;
+    background: darkred;
+    background: linear-gradient(0deg, darkred, darkred 100%);
+    color: #fff;
+    overflow: hidden;
+}
+.bta:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.bta:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.bta:hover{
+    opacity: .7;
+}
+.bta:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, .2),
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+.mobilemenu {
+    display: none;
+}
+
+.ma {
+    background-color: darkred;
+    animation-name: example;
+    animation-duration: 4s;
+    opacity:1;
+}
+
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.model{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+
+.han{
+  display: flex;
+  flex-direction: column;
+}
+
+.han img{
+    width: 82px;
+    height: 82px;
+    margin: 10px;
+}
+
+.model2 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("A168WG-9W-2-1641956897967.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.model1{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.model3 h5{
+    font-size: 15px;
+}
+
+.model3{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.mdl3{
+    padding: 0.5rem;
+}
+
+.model3 i{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+.model22 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("SAG00001S0-B-1-1628151813353.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md11{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model23 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("Casio-MTP-VT01L-2B-3-1635995134191.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md13{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model24 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("B640WGG-9DF-2-1640761713020.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md14{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model25 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("dong-ho-orient-caballero-fag00003b0-cl1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md15{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+
+.model26 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("LA680WA-7-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md16 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model27 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("Orient-FAG00003W0-1-1633056413601.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md17 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model28 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("dong-ho-orient-caballero-fag00004d0_5-ims.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md18 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
